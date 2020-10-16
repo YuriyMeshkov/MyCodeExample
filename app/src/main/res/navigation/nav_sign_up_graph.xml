@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/registrationFragment">
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationwithphone.RegistrationFragment"
+        android:label="registration_fragment"
+        tools:layout="@layout/registration_fragment" >
+        <action
+            android:id="@+id/action_registrationFragment_to_choiceOfRoleFragment"
+            app:destination="@id/choiceOfRoleFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_contryFragment3"
+            app:destination="@id/contryFragment3" />
+        <action
+            android:id="@+id/action_registrationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_registrationStep2Fragment"
+            app:destination="@id/registrationSmsFragment" />
+        <action
+            android:id="@+id/action_registrationFragment_to_choiceCityFromGoogleFragment4"
+            app:destination="@id/choiceCityFromGoogleFragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceOfRoleFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationwithphone.ChoiceOfRoleFragment"
+        android:label="fragment_choice_of_role"
+        tools:layout="@layout/fragment_choice_of_role" />
+    <fragment
+        android:id="@+id/registrationAccountFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationaccount.RegistrationAccountFragment"
+        android:label="fragment_registration_account"
+        tools:layout="@layout/fragment_registration_account">
+        <action
+            android:id="@+id/action_registrationStep3Fragment_to_demoVersionSelectionFragment"
+            app:destination="@id/demoVersionSelectionFragment" />
+        <action
+            android:id="@+id/action_registrationAccountFragment_to_contentViewingFragment"
+            app:destination="@id/contentViewingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/demoVersionSelectionFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.DemoVersionSelectionFragment"
+        android:label="fragment_demo_version_selection"
+        tools:layout="@layout/fragment_demo_version_selection" />
+    <fragment
+        android:id="@+id/contryFragment3"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationwithphone.CountryFragment"
+        android:label="fragment_choice_country"
+        tools:layout="@layout/fragment_choice_country" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.login.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/registrationSmsFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.RegistrationStep2Fragment"
+        android:label="fragment_registration_sms"
+        tools:layout="@layout/fragment_registration_sms">
+        <action
+            android:id="@+id/action_registrationStep2Fragment_to_registrationStep3Fragment"
+            app:destination="@id/registrationAccountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceCityFromGoogleFragment4"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationaccount.choicecityfromgoogle.CityChoiceFromGoogleFragment"
+        android:label="fragment_choice_city_from_google"
+        tools:layout="@layout/fragment_choice_city_from_google" />
+    <fragment
+        android:id="@+id/contentViewingFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationaccount.ContentViewingFragment"
+        android:label="fragment_content_viewing"
+        tools:layout="@layout/fragment_content_viewing" />
+</navigation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_verification_graph"
+    app:startDestination="@id/verificationFragment">
+
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.VerificationFragment"
+        android:label="VerificationFragment" >
+        <action
+            android:id="@+id/action_verificationFragment_to_contactsDataFragment"
+            app:destination="@id/contactsDataFragment" />
+        <action
+            android:id="@+id/action_verificationFragment_to_personalDataFragment"
+            app:destination="@id/personalDataFragment" />
+        <action
+            android:id="@+id/action_verificationFragment_to_drivingLicenseFragment"
+            app:destination="@id/drivingLicenseFragment" />
+        <action
+            android:id="@+id/action_verificationFragment_to_carsFragment"
+            app:destination="@id/carsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactsDataFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcontacts.ContactsDataFragment"
+        android:label="contacts_data_fragment"
+        tools:layout="@layout/contacts_data_fragment" >
+        <action
+            android:id="@+id/action_contactsDataFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
+        <action
+            android:id="@+id/action_contactsDataFragment_to_sendCodeEmailFragment"
+            app:destination="@id/sendCodeEmailFragment" />
+        <action
+            android:id="@+id/action_contactsDataFragment_to_sendSmsForChangePhone"
+            app:destination="@id/sendSmsForChangePhone" />
+    </fragment>
+    <fragment
+        android:id="@+id/personalDataFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifpersonaldata.PersonalDataFragment"
+        android:label="personal_data_fragment"
+        tools:layout="@layout/personal_data_fragment" />
+    <fragment
+        android:id="@+id/drivingLicenseFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifdrivinglicense.DrivingLicenseFragment"
+        android:label="driving_license_fragment"
+        tools:layout="@layout/driving_license_fragment" >
+        <action
+            android:id="@+id/action_drivingLicenseFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carsFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcars.CarsFragment"
+        android:label="cars_fragment"
+        tools:layout="@layout/cars_fragment" >
+        <action
+            android:id="@+id/action_carsFragment_to_addCarFragment"
+            app:destination="@id/addCarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCarFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcars.addcar.AddCarFragment"
+        android:label="add_car_fragment"
+        tools:layout="@layout/add_car_fragment" >
+        <action
+            android:id="@+id/action_addCarFragment_to_typeCarsFragment"
+            app:destination="@id/typeCarsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typeCarsFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcars.addcar.TypeCarsFragment"
+        android:label="fragment_type_cars"
+        tools:layout="@layout/fragment_type_cars" />
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.jobc.j112kilo.ui.auth.registrationlogin.registration.registrationwithphone.CountryFragment"
+        android:label="fragment_choice_country"
+        tools:layout="@layout/fragment_choice_country" />
+    <fragment
+        android:id="@+id/sendCodeEmailFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcontacts.SendCodeEmailFragment"
+        android:label="fragment_send_code_email"
+        tools:layout="@layout/fragment_send_code_email" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifdrivinglicense.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/sendSmsForChangePhone"
+        android:name="com.jobc.j112kilo.ui.auth.verification.verifcontacts.SendSmsForChangePhone"
+        android:label="SendSmsForChangePhone" />
+</navigation>

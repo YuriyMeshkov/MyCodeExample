@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">112Kilo</string>
+    <string name="login">Увійти</string>
+    <string name="registration">Реєстрація</string>
+    <string name="registration_txt">Реєстрація</string>
+    <string name="choice_country">Країна</string>
+    <string name="phone">Тел. (виберіть країну</string>
+    <string name="phone_ua">+38 (###) ###-####</string>
+    <string name="phone_code_ua">+38 (</string>
+    <string name="phone_by">+37 (###) ###-####</string>
+    <string name="phone_code_by">+37 (</string>
+    <string name="phone_ru">+7 (###) ###-####</string>
+    <string name="phone_code_ru">+7 (</string>
+    <string name="phone_kz">+7 (###) ###-####</string>
+    <string name="phone_code_kz">+7 (</string>
+    <string name="email">Email</string>
+    <string name="phone_or_email">Телефон(+..) / email</string>
+    <string name="password">Пароль \> 5 символів</string>
+    <string name="password_confirm">Підтвердити пароль</string>
+    <string name="are_you_have_account">Вже є аккаунт?</string>
+    <string name="login_title">Вхід</string>
+    <string name="forget_password">Забули пароль?</string>
+    <string name="invalid_choice_country">Недійсний вибір країни</string>
+    <string name="invalid_choice_type_role">Недійсний вибір ролі</string>
+    <string name="invalid_user_email">Недійсний email користувача</string>
+    <string name="invalid_userphone">Недійсний телефонний номер</string>
+    <string name="invalid_password">Пароль повинен бути> 5 символів</string>
+    <string name="invalid_confirm_password">Паролі не співпадають</string>
+    <string name="invalid_input_field">Поле введення не може бути порожнім</string>
+    <string name="invalid_gender"> Виберіть стать</string>
+    <string name="invalid_approval_agreement">Необхідна згода з умовами
+         Користування Сервісом</string>
+    <string name="invalid_approval_policy">Необхідна згода з умовами
+         Політики Конфіденційності</string>
+    <string name="registration_error">Помилка реєстрації, спробуйте ще раз</string>
+    <string name="loading_error">Помилка, перевірте дані, спробуйте ще раз</string>
+    <string name="password_reset">Скидання пароля</string>
+    <string name="password_reset_email">Введіть email для скидання пароля</string>
+    <string name="send">Відправити</string>
+    <string name="email_send">Лист відправлений</string>
+    <string name="email_error">Помилка error</string>
+    <string name="preview_title">Вступ</string>
+    <string name="skip">Пропустити</string>
+    <string name="next_step">Далі</string>
+    <string name="sender">ВІДПРАВНИК</string>
+    <string name="carrier">ПЕРЕВІЗНИК</string>
+    <string name="choice_role">Вибір ролі</string>
+
+    <string name="sms_with_key">Вам прийшло смс з кодом</string>
+    <string name="step2_desc">Введіть шість цифр, \n які вказані в повідомленні</string>
+    <string name="stars">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</string>
+    <string name="continue_next">Продовжити</string>
+    <string name="_00_35">00:35</string>
+    <string name="no_take_sms">Не прийшло СМС с кодом?</string>
+    <string name="give_kod_again">Отримати код повторно</string>
+
+    <string name="user_name">Ім\'я</string>
+    <string name="sur_name">Прізвище</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="city_of_residence">Місто проживаання</string>
+    <string name="city_search">Пошук</string>
+    <string name="document_approval">Згоден з </string>
+    <string name="document_approval_agreement_btn">Умовами
+         Користування Сервісом</string>
+    <string name="document_approval_policy_btn">Умовами
+         Політики Конфіденційності</string>
+
+    <string name="demo_version">Перейти в демо версію</string>
+    <string name="verification">Верифікація</string>
+    <string name="make_choice">Зробіть вибір</string>
+
+    <string name="preview_title_0">Як працює сервіс 112Kilo</string>
+    <string name="preview_text_0">Щодня сотні тисяч автомобілів рухаються по дорогах в різних
+        напрямках. Серед них є і ті, які їдуть по необхідному для Вас Маршрутом і готові
+        попутно доставити Ваш вантаж.</string>
+    <string name="preview_title_1">Термінова доставка</string>
+    <string name="preview_text_1">Термінова цілодобова доставка міжміських відправлень
+        протягом декількох годин</string>
+    <string name="preview_title_2">Тварини</string>
+    <string name="preview_text_2">Перевезення таврин</string>
+    <string name="preview_title_3">Медикаменти</string>
+    <string name="preview_text_3">Термінова доставка в інші міста медикаментів, вакцин,
+        біоматеріалів</string>
+    <string name="preview_title_4">Делікатні вантажі</string>
+    <string name="preview_text_4">Перевозка делікатного, тендітного, неупакованого вантажу.
+        Міжміські квартирні переїзди.</string>
+    <string name="last_step">Продовжити</string>
+
+    <string name="enter_contacts">Контакти</string>
+    <string name="enter_personal_data">Особисті дані</string>
+    <string name="enter_driving_license">Водійські права</string>
+    <string name="enter_cars">Автомобілі</string>
+    <string name="accept">Прийняти</string>
+    <string name="cancel">Відмінити</string>
+
+    <string name="confirm_phone">Підтвердити телефон</string>
+    <string name="confirm_email">Підтвердити email</string>
+    <string name="change_phone">Змінити телефон</string>
+    <string name="change_email">Змінити email</string>
+    <string name="email_use">Email вже використовується</string>
+
+    <string name="email_with_key">Вам прийшло EMAIL з кодом</string>
+    <string name="no_take_email">Не прийшло EMAIL с кодом?</string>
+
+    <string name="button_take_pictures">Зробити фото</string>
+    <string name="button_gallery_search">Пошук в Галереї</string>
+
+    <string name="error_loading_image">Помилка. Спробуйте ще раз</string>
+
+    <string name="driving_license">Посвідчення водія</string>
+    <string name="issued_by">ким виданий</string>
+    <string name="date_of_issue">дата видачі</string>
+    <string name="series">серія</string>
+    <string name="number">номер</string>
+    <string name="photo_of_the_first_page">фото першої\nсторінки</string>
+    <string name="photo_of_the_second_page">фото другої\nсторінки</string>
+    <string name="date_hint">дд.мм.рррр</string>
+    <string name="invalid_date">Недійсна дата</string>
+
+    <string name="calendar_ok">Oк</string>
+    <string name="calendar_cancel">Відмінити</string>
+    <string name="select_date">Виберіть дату</string>
+
+    <string name="cars">Список машин</string>
+    <string name="car">Автомобіль</string>
+    <string name="car_type">Тип автомобіля</string>
+
+    <string name="car_to_250_kg">Легковий (до 250 кг) </string>
+    <string name="van_car_to_500_kg">Фургон (до 500 кг)</string>
+    <string name="minibus_to_1000_kg">Мікроавтобус (до 1000 кг)</string>
+    <string name="truck_to_1500_kg">Вантажівка (до 1500 кг)</string>
+    <string name="truck_to_3500_kg">Вантажівка (до 3500 кг)</string>
+    <string name="truck_to_5000_kg">Вантажівка (до 5000 кг)</string>
+    <string name="truck_over_5000_kg">Вантажівка (більше 5000 к)г</string>
+    <string name="car_model">Марка автомобіля</string>
+    <string name="car_registration_number">Реєстраційний номер</string>
+    <string name="add_photo_car">Додайте фотографію автомобіля з чітко видимим
+        реєстраціонним номером</string>
+    <string name="photo_technical_passport">Фото техничного паспорта на автомобіль</string>
+
+    <string name="invalid_car_type">Невірний тип автомобіля</string>
+    <string name="invalid_car_model">Невірна марка автомобіля</string>
+    <string name="invalid_car_registration_number">Невірний реєстраційний номер авто</string>
+    <string name="invalid_load_photo_car">Завантажте фото автомобіля</string>
+    <string name="invalid_load_photo_tehnical_pasport">Завантажте фото тех.паспорта автомобіля</string>
+
+    <string name="choice_country_for_user">Вибір країни</string>
+    <string name="country_ukraine">Україна</string>
+    <string name="country_russian">Росія</string>
+    <string name="country_belarus">Білорусь</string>
+    <string name="country_kazakhstan">Казахстан</string>
+</resources>

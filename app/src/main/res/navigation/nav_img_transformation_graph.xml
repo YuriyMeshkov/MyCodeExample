@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_img_transformation_graph"
+    app:startDestination="@id/photoSourceSelectionFragment">
+
+    <fragment
+        android:id="@+id/photoSourceSelectionFragment"
+        android:name="com.jobc.j112kilo.ui.imgtransformation.ImgSourceSelectionFragment"
+        android:label="fragment_photo_source_selection"
+        tools:layout="@layout/fragment_photo_source_selection" >
+        <action
+            android:id="@+id/action_photoSourceSelectionFragment_to_imageTransformationFragment"
+            app:destination="@id/imageTransformationFragment" />
+        <argument
+            android:name="pathFile"
+            app:argType="string" />
+        <argument
+            android:name="fileName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageTransformationFragment"
+        android:name="com.jobc.j112kilo.ui.imgtransformation.ImgTransformationFragment"
+        android:label="fragment_image_transformation"
+        tools:layout="@layout/fragment_image_transformation_avatar" />
+</navigation>

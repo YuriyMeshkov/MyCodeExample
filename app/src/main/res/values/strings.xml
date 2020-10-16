@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">112Kilo</string>
+    <string name="login">Sign In</string>
+    <string name="registration">Sign Up</string>
+    <string name="registration_txt">Registration</string>
+    <string name="choice_country">Country</string>
+    <string name="phone">Phone (choose a country)</string>
+    <string name="phone_ua">+38 (###) ###-####</string>
+    <string name="phone_code_ua">+38 (</string>
+    <string name="phone_by">+37 (###) ###-####</string>
+    <string name="phone_code_by">+37 (</string>
+    <string name="phone_ru">+7 (###) ###-####</string>
+    <string name="phone_code_ru">+7 (</string>
+    <string name="phone_kz">+7 (###) ###-####</string>
+    <string name="phone_code_kz">+7 (</string>
+    <string name="email">Email</string>
+    <string name="phone_or_email">Phone(+..) / email</string>
+    <string name="password">Password \> 5 characters</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="are_you_have_account">Are you have account?</string>
+    <string name="login_title">Login</string>
+    <string name="forget_password">Forgot your password?</string>
+    <string name="invalid_choice_country">Not a valid country</string>
+    <string name="invalid_choice_type_role">Not a valid role</string>
+    <string name="invalid_user_email">Not a valid email user</string>
+    <string name="invalid_userphone">Not a valid phone</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_confirm_password">Passwords do not match</string>
+    <string name="invalid_input_field">Input field cannot be empty</string>
+    <string name="invalid_gender"> Select gender</string>
+    <string name="invalid_approval_agreement">Do you agree with the Terms of Service?</string>
+    <string name="invalid_approval_policy">Do you agree with the terms of the Privacy Policy?</string>
+    <string name="registration_error">Registration error, try again</string>
+    <string name="loading_error">Error, check data, try again</string>
+    <string name="password_reset">Password reset</string>
+    <string name="password_reset_email">Enter email to reset password</string>
+    <string name="send">Send</string>
+    <string name="email_send">Email send</string>
+    <string name="email_error">Email error</string>
+    <string name="preview_title">Introduction</string>
+    <string name="skip">Skip</string>
+    <string name="next_step">Next</string>
+    <string name="sender">SENDER</string>
+    <string name="carrier">CARRIER</string>
+    <string name="choice_role">Choice of role</string>
+
+    <string name="sms_with_key">You received an SMS with a code</string>
+    <string name="step2_desc">Enter the six digits, \n  that are indicated in the message</string>
+    <string name="stars">&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;</string>
+    <string name="continue_next">Continue</string>
+    <string name="_00_35">00:35</string>
+    <string name="no_take_sms">Didn\'t receive SMS with code?</string>
+    <string name="give_kod_again">Get the code again</string>
+
+    <string name="user_name">Name</string>
+    <string name="sur_name">Surname</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="city_of_residence">City of residence</string>
+    <string name="city_search">Search</string>
+    <string name="document_approval">I agree with</string>
+    <string name="document_approval_agreement_btn">The Terms of Service</string>
+    <string name="document_approval_policy_btn">The terms of the Privacy Policy</string>
+
+    <string name="demo_version">Go to demo version</string>
+    <string name="verification">Verify</string>
+    <string name="make_choice">Make a choice</string>
+
+    <string name="preview_title_0">How the 112Kilo service works</string>
+    <string name="preview_text_0">Every day, hundreds of thousands of cars move along the
+        roads in different directions. Among them there are those who travel along the
+        Route you need and are ready to deliver your cargo along the way.</string>
+    <string name="preview_title_1">Premium rush</string>
+    <string name="preview_text_1">Urgent 24/7 delivery of long-distance shipments
+        within a few hours</string>
+    <string name="preview_title_2">Animals</string>
+    <string name="preview_text_2">Transportation of animals</string>
+    <string name="preview_title_3">Medicines</string>
+    <string name="preview_text_3">Urgent delivery to other cities of medicines, vaccines, biomaterials</string>
+    <string name="preview_title_4">Delicate cargoes</string>
+    <string name="preview_text_4">Transportation of delicate, fragile, unpackaged goods.
+        Long-distance apartment moving.</string>
+    <string name="last_step">Continue</string>
+
+    <string name="enter_contacts">Your contacts</string>
+    <string name="enter_personal_data">Your personal data</string>
+    <string name="enter_driving_license">Your driving license</string>
+    <string name="enter_cars">Your cars</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="confirm_phone">Confirm phone</string>
+    <string name="confirm_email">Confirm email</string>
+    <string name="change_phone">Change phone</string>
+    <string name="change_email">Change email</string>
+    <string name="email_use">Email is already in use</string>
+
+    <string name="email_with_key">You received an EMAIL with a code</string>
+    <string name="no_take_email">Didn\'t receive EMAIL with code?</string>
+
+    <string name="button_take_pictures">Take pictures</string>
+    <string name="button_gallery_search">Gallery search</string>
+
+    <string name="error_loading_image">Error. Try again</string>
+
+    <string name="driving_license">Driving Licence </string>
+    <string name="issued_by">issued by</string>
+    <string name="date_of_issue">date of issue</string>
+    <string name="series">series</string>
+    <string name="number">number</string>
+    <string name="photo_of_the_first_page">photo of the\nfirst page</string>
+    <string name="photo_of_the_second_page">photo of the\nsecond page</string>
+    <string name="date_hint">dd.mm.yyyy</string>
+    <string name="invalid_date">Invalid date</string>
+
+    <string name="calendar_ok">Ok</string>
+    <string name="calendar_cancel">Cancel</string>
+    <string name="select_date">Select date</string>
+
+    <string name="cars">List of your cars</string>
+    <string name="car">Car</string>
+    <string name="car_type">Enter car type</string>
+
+    <string name="car_to_250_kg">Car (up to 250 kg) </string>
+    <string name="van_car_to_500_kg">Van car (up to 500 kg)</string>
+    <string name="minibus_to_1000_kg">Minibus (up to 1000 kg)</string>
+    <string name="truck_to_1500_kg">Truck (up to 1500 kg)</string>
+    <string name="truck_to_3500_kg">Truck (up to 3500 kg)</string>
+    <string name="truck_to_5000_kg">Truck (up to 5000 kg)</string>
+    <string name="truck_over_5000_kg">Truck (over 5000 kg)</string>
+    <string name="car_model">Car model</string>
+    <string name="car_registration_number">Registration number</string>
+    <string name="add_photo_car">Add a photo of the car</string>
+    <string name="photo_technical_passport">Photo of the technical passport for the car</string>
+
+    <string name="invalid_car_type">Not a valid car type</string>
+    <string name="invalid_car_model">Not a valid car mode</string>
+    <string name="invalid_car_registration_number">Not a valid car registration number</string>
+    <string name="invalid_load_photo_car">Upload car photo</string>
+    <string name="invalid_load_photo_tehnical_pasport">Upload technical passport photo</string>
+
+    <string name="choice_country_for_user">Choice Country</string>
+    <string name="country_ukraine">Ukraine</string>
+    <string name="country_russian">Russian</string>
+    <string name="country_belarus">Belarus</string>
+    <string name="country_kazakhstan">Kazakhstan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
